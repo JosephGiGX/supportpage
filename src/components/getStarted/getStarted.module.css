@@ -1,0 +1,61 @@
+.content {
+  width: 100%;
+  margin-bottom: 30px;
+  background: #16242b 0% 0% no-repeat padding-box;
+  font-family: circular Std, Book;
+  font-weight: normal;
+  border-radius: 15px;
+  opacity: 1;
+  display: inline-block;
+  padding: 50px 34px;
+  vertical-align: middle;
+  object-fit: contain;
+}
+
+.title {
+  font-family: circular Std, Book;
+  text-align: left;
+  font-weight: normal;
+  color: #ffffff;
+  opacity: 1;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-family: circular Std, Book;
+  font-weight: normal;
+  text-align: left;
+  font-size: 16px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 0.5;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.link {
+  margin-top: 39px;
+  font-family: circular Std, Book;
+  font-weight: normal;
+  color: #e25a5a;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.linked {
+  color: #e25a5a;
+  font-family: circular Std, Book;
+  font-weight: normal;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.label {
+  margin-left: 10px;
+  font-family: circular Std, Book;
+  font-weight: normal;
+  border-bottom: 1px dashed #e25a5a;
+  font-size: 16px;
+}

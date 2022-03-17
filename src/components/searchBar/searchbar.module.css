@@ -1,0 +1,26 @@
+.inputField {
+  background-color: transparent;
+  border: 0;
+  color: #fff;
+  width: 100%;
+}
+
+.inputField:focus {
+  outline: none;
+}
+
+.inputField::placeholder {
+  color: #ffffff50;
+}
+
+.formStyle {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  width: 100%;
+  max-width: 680px;
+  height: 70px;
+  background-color: #efefef10;
+  border-radius: 12px;
+  padding: 26px 20px;
+}
