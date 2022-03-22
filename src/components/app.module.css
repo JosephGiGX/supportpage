@@ -1,0 +1,140 @@
+@font-face {
+  font-family: "circular-Medium";   /*Can be any text*/
+  src: local("CircularStd-Medium"),
+    url("../fonts/CircularStd-Medium.otf") format("OpenType");
+}
+
+.content {
+  background: #0a161c;
+}
+
+.webBody {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: circular Std, Book;
+  font-weight: normal;
+}
+
+.gettingStarted{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 480px) {
+  .webBody {
+    width: 90%;
+    font-family: circular Std, Book;
+    font-weight: normal;
+  }
+}
+
+.title {
+  color: #fff;
+  opacity: 1;
+  text-align: center;
+  margin-top: 100px;
+  font-family: circular Std, Book;
+  font-weight: normal;
+  font-size: 37px;
+  margin-bottom: 30px;
+}
+
+.titleHead {
+  color: #fff;
+  opacity: 1;
+  text-align: center;
+  margin-top: 100px;
+  font-family: circular Std, Book;
+  font-weight: normal;
+  font-size: 37px;
+}
+
+.subTitle {
+  color: #fff;
+  opacity: 1;
+  text-align: center;
+  font-family: circular Std, Book;
+  font-weight: normal;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.searchContainer {
+  margin-left: 20%;
+  margin-right: 20%;
+  font-family: circular Std, Book;
+
+@media screen and (max-width: 972px) {
+  .searchContainer {
+    margin: 0;
+  }
+}}
+
+.title h1 {
+  font-size: 37px;
+}
+
+.title h2 {
+  font-size: 24px;
+}
+
+.heading {
+  /* margin-left: 264px; */
+  width: 258px;
+  height: 25px;
+  color: #e25a5a;
+  font-size: 20px;
+  margin-bottom: 40px;
+  font-family: circular Std, Book;
+  font-weight: normal;
+}
+
+.accordion {
+  /* width: 40%; */
+  flex: 0.33;
+}
+
+@media screen and (max-width: 1236px) {
+  .accordion {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.blockTeam {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  gap: 132px;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+
+@media screen and (max-width: 972px) {
+  .blockTeam {
+    gap: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 20px
+  }
+}
+
+.paper {
+  width: 105px;
+  height: 18px;
+  text-align: left;
+  font-family: circular Std, Book;
+  font-weight: normal;
+  color: #E25A5A;
+  opacity: 1;
+  margin-top: 10px;
+  margin-left: 5px;
+  clear: both;
+  display: inline-block;
+  white-space: nowrap;
+  padding-bottom: 10px;
+}

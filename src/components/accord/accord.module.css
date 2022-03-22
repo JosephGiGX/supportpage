@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap");
+
+/* Style the accordion section */
+.accordion__section {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: transparent;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  display: flex;
+  align-items: center;
+  font-weight: normal;
+  font-family: circular Std, Book;
+  opacity: 1;
+  border: none;
+  outline: none;
+  transition: background-color 0.6s ease;
+  border-bottom: 1px solid #ffffff10;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active {
+  background-color: transparent;
+  border: 0;
+}
+
+/* Style the accordion content title */
+.accordion__title {
+  font-family: circular Std, Book;
+  font-weight: normal;
+  opacity: 1;
+  font-size: 16px;
+  text-align: left;
+  color: #fff;
+}
+
+.accordion__icon {
+  margin-left: auto;
+  transition: transform 0.6s ease;
+}
+
+.rotate {
+  transform: rotate(180deg);
+}
+
+.accordion__content {
+  background-color: #16242b;
+  font-family: circular Std, Book;
+  font-weight: normal;
+  opacity: 1;
+  color: #ffffff50;
+  font-size: 16px;
+  overflow: auto;
+  /* transition: 160px 0.6s ease; */
+}
+
+.accordion__text {
+  font-family: circular Std, Book;
+  opacity: 1;
+  font-weight: normal;
+  font-size: 16px;
+  padding: 27px 27px 12px 27px;
+}
+
+.collapseSubContent {
+  font-size: 14px;
+  font-family: circular Std, Book;
+  opacity: 1;
+  font-weight: normal;
+  padding: 0 27px 27px 27px;
+  color: white;
+}
+
+.collapseSubContent span {
+  color: #e25a5a;
+  opacity: 1;
+  font-weight: normal;
+  font-family: circular Std, Book;
+  margin-left: 8px;
+}
